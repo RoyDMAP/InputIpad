@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		91D4E4D42EBFED9400EAC937 /* DrawingModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91D4E4D22EBFED9400EAC937 /* DrawingModel.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		D890EC7D2EA03AC500E3D4C3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		91D4E4D32EBFED9400EAC937 /* DrawingModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DrawingModel.xcdatamodel; sourceTree = "<group>"; };
 		D890EC6C2EA03ABF00E3D4C3 /* Input Ipad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Input Ipad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D890EC7C2EA03AC500E3D4C3 /* Input IpadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Input IpadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D890EC862EA03AC500E3D4C3 /* Input IpadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Input IpadUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +80,7 @@
 		D890EC632EA03ABF00E3D4C3 = {
 			isa = PBXGroup;
 			children = (
+				91D4E4D22EBFED9400EAC937 /* DrawingModel.xcdatamodeld */,
 				D890EC6E2EA03ABF00E3D4C3 /* Input Ipad */,
 				D890EC7F2EA03AC500E3D4C3 /* Input IpadTests */,
 				D890EC892EA03AC500E3D4C3 /* Input IpadUITests */,
@@ -236,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91D4E4D42EBFED9400EAC937 /* DrawingModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -554,6 +561,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		91D4E4D22EBFED9400EAC937 /* DrawingModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				91D4E4D32EBFED9400EAC937 /* DrawingModel.xcdatamodel */,
+			);
+			currentVersion = 91D4E4D32EBFED9400EAC937 /* DrawingModel.xcdatamodel */;
+			path = DrawingModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D890EC642EA03ABF00E3D4C3 /* Project object */;
 }

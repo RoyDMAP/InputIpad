@@ -2,16 +2,19 @@
 //  Input_IpadApp.swift
 //  Input Ipad
 //
-//  Created by Gaby Sanchez on 11/06/25.
-//
+//  Created by Roy Dimapilis on 11/06/25.
+
 
 import SwiftUI
 
 @main
 struct Input_IpadApp: App {
+    let persistenceController = PersistenceController.shared
+    
     var body: some Scene {
         WindowGroup {
-            DrawingView()
+            DrawingGalleryView()
+                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }
